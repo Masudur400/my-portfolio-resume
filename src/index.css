@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.avg {
+    background-image: url('../src/assets/images/banner-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
