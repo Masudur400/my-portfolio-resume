@@ -1,7 +1,7 @@
 import { FaNode, FaReact } from "react-icons/fa";
 import { IoLogoCss3, IoLogoHtml5 } from "react-icons/io";
 import { RiTailwindCssFill } from "react-icons/ri";
-import { SiExpress, SiJavascript } from "react-icons/si";
+import { SiExpress, SiJavascript, SiMongodb } from "react-icons/si";
 
  
 const Skills = () => {
@@ -15,7 +15,8 @@ const Skills = () => {
                 <p><SiJavascript className="text-yellow-500 text-2xl md:text-6xl"></SiJavascript></p>
                 <p><IoLogoHtml5 className="text-orange-500 text-2xl md:text-6xl"></IoLogoHtml5></p>
                 <p><FaNode className="text-green-500 text-2xl md:text-6xl"></FaNode></p>
-                <p><SiExpress  className="text-white text-2xl md:text-6xl"></SiExpress></p>
+                <p><SiExpress className="text-white text-2xl md:text-6xl"></SiExpress></p>
+                <p><SiMongodb className="text-green-500 text-2xl md:text-6xl"></SiMongodb ></p>
              </div>
         </div>
     );
