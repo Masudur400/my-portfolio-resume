@@ -8,7 +8,7 @@ const Skills = () => {
     return (
         <div className="text-white">
              <h3 className="md:text-5xl text-3xl font-bold text-center">Skills</h3>
-             <div className="my-6 flex gap-2 justify-center items-center px-3">
+             <div data-aos="zoom-in" className="my-6 flex gap-2 justify-center items-center px-3">
                 <p><FaReact className="text-sky-500 text-2xl md:text-6xl"></FaReact></p>
                 <p><RiTailwindCssFill className="text-sky-500 text-2xl md:text-6xl"></RiTailwindCssFill></p>
                 <p><IoLogoCss3 className="text-indigo-500 text-2xl md:text-6xl"></IoLogoCss3 ></p>
