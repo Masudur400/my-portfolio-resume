@@ -13,7 +13,7 @@ const Banner = () => {
                         <p>I am a highly skilled and motivated front-end developer with a passion for creating innovative and user-friendly websites and web applications.I am strongly skilled in javascript.I am also skilled in React. I love to do things with React.I always try to explore more about the technologies that i like.</p>
 
                         
-                            <a href="https://drive.google.com/file/d/1fDQypjYyL_6ibV3iu7CctB00O8XZSzet/view?usp=sharing" target='blank' className='text-white w-fit bg-indigo-500 px-4 py-2 rounded-md mt-3 flex gap-1 justify-center items-center'><LuDownload></LuDownload> Download Resume</a>
+                            <a href="https://drive.google.com/file/d/1FerpDVAKFhroVg9YTCStKdZZ233muucb/view?usp=sharing" target='blank' className='text-white w-fit bg-indigo-500 px-4 py-2 rounded-md mt-3 flex gap-1 justify-center items-center'><LuDownload></LuDownload> Download Resume</a>
                         
                     </div>
                 </div>
