@@ -7,7 +7,15 @@ const Projects = () => {
         <div >
             <h3 className="md:text-3xl text-2xl font-bold text-center text-white mt-8 mb-10">Projects</h3>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3'>
-                {/* project-1  */}
+                {/* project-1 */}
+                <div data-aos="zoom-in" className='shadow-md p-3 rounded-md shadow-gray-400'> 
+                    <img src={project3} alt="image" className='' />
+                    <p className='text-base md:text-xl text-white my-2'>Name : ButterFly (Book Exchange)</p>
+                    <p><a href="https://butterfly-books.vercel.app/" target='blank' className='md:text-xl text-lg font-bold text-white underline'>* Project live link</a></p>
+                    <p><a href="https://github.com/faisal-shohag/Butterfly" target='blank' className='md:text-xl text-lg font-bold text-white underline'>* Project github link</a></p> 
+                </div>
+                
+                {/* project-2  */}
                 <div data-aos="zoom-in" className='shadow-md p-3 rounded-md shadow-gray-400'> 
                     <img src={project1} alt="image" />
                     <p className='text-base md:text-xl text-white my-2'>Name : Scholarship Management</p>
@@ -15,7 +23,7 @@ const Projects = () => {
                     <p><a href="https://github.com/Masudur400/Scholarship-Management-client-as-12" target='blank' className='md:text-xl text-lg font-bold text-white underline'>* Project github link</a></p>
                 </div>
                
-                {/* project-2  */}
+                {/* project-3  */}
                 <div data-aos="zoom-in" className='shadow-md p-3 rounded-md shadow-gray-400'> 
                     <img src={project2} alt="image" className='' />
                     <p className='text-base md:text-xl text-white my-2'>Name : Ghorer Bazar (E-Commerce)</p>
@@ -23,13 +31,7 @@ const Projects = () => {
                     <p><a href="https://github.com/Masudur400/ghorer-bazar-client" target='blank' className='md:text-xl text-lg font-bold text-white underline'>* Project github link</a></p>
                 </div>
 
-                 {/* project-3 */}
-                 <div data-aos="zoom-in" className='shadow-md p-3 rounded-md shadow-gray-400'> 
-                    <img src={project3} alt="image" className='' />
-                    <p className='text-base md:text-xl text-white my-2'>Name : ButterFly (Book Exchange)</p>
-                    <p><a href="https://butterfly-books.vercel.app/" target='blank' className='md:text-xl text-lg font-bold text-white underline'>* Project live link</a></p>
-                    <p><a href="https://github.com/faisal-shohag/Butterfly" target='blank' className='md:text-xl text-lg font-bold text-white underline'>* Project github link</a></p> 
-                </div>
+                 
             </div>
         </div>
     );
