@@ -7,3 +7,26 @@
     background-size: cover;
     background-repeat: no-repeat; 
 }
+
+/* hidden scrollbar */
+@layer base {
+    html, body {
+        overflow-y: scroll;  
+    } 
+    *::-webkit-scrollbar {
+        display: none;
+    }
+    * {
+        -ms-overflow-style: none; 
+        scrollbar-width: none;   
+    }
+  }  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+   
+  .scrollbar-hide {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+  }
+  /* ----------------------- */

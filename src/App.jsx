@@ -10,7 +10,7 @@ import Skills from './components/Skills/Skills'
 function App() {
 
   return (
-   <div className='bg-black bg-opacity-90  py-7'>
+   <div className='   py-7'>
      <div className='container mx-auto px-3'>
       {/* <h3 className="text-3xl font-bold text-center text-indigo-500 underline mt-3 mb-5">My Portfolio</h3> */}
       <Banner></Banner>
