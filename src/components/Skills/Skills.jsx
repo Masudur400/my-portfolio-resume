@@ -142,9 +142,9 @@ const DragAndDrop = () => {
                     } ${
                         item.id === hoveredItem?.id ? "border-dashed border-2 border-blue-500" : "border-gray-100"
                     }`}
-                > 
-                    <p>{item.image}</p>
-                    <p>{item.title}</p>
+                >  
+                    <p className="w-20">{item.image}</p>
+                    <p className="text-sm">{item.title}</p>
                 </div> 
             ))}
         </div>
