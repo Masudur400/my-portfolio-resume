@@ -6,7 +6,7 @@ const Contact = () => {
     return (
         <div className="my-14 text-white text-opacity-80">
             <h3 className="text-2xl md:text-4xl font-medium text-center">Contact Me</h3>
-            <div data-aos="zoom-in" className=" shadow-md shadow-gray-400 p-3 lg:w-2/5 md:w-3/5 mx-auto mt-8 rounded-md">
+            <div data-aos="zoom-in" className=" shadow-purple-700 shadow-md p-3 lg:w-2/5 md:w-3/5 mx-auto mt-8 rounded-md">
                 <div>
                     <p className="flex gap-1 md:text-xl items-center"><MdOutlineMail></MdOutlineMail> Email : md8004210@gmail.com
                     </p>

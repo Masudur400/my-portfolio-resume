@@ -137,7 +137,7 @@ const DragAndDrop = () => {
                     onDragOver={(e) => handleDragOver(e, item)}
                     onDrop={(e) => handleDrop(e, item)}
                     onDragLeave={() => setHoveredItem(null)}
-                    className={`w-fit md:px-8 md:py-4 px-6 py-2 border-2 border-opacity-70 rounded text-center cursor-move ${
+                    className={`w-fit md:px-8 md:py-4 px-6 py-2 border-2 border-purple-700 border-opacity-70 rounded text-center cursor-move ${
                         item.id === draggedItem?.id && "bg-blue-100 opacity-30"
                     } ${
                         item.id === hoveredItem?.id ? "border-dashed border-2 border-blue-500" : "border-gray-100"

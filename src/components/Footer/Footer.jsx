@@ -2,8 +2,8 @@ import { FaFacebookSquare, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <div>
-            <footer className="footer footer-center bg-base-300 p-10">
+        <div className="shadow-purple-700 shadow">
+            <footer className="footer footer-center border border-base-300 p-10">
                 <aside>
                     {/* <p><FaHashtag className="text-6xl text-white"></FaHashtag></p> */}
                     <nav>

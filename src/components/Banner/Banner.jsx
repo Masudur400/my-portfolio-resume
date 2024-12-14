@@ -1,5 +1,4 @@
-import { LuDownload } from 'react-icons/lu';
-import img1 from '../../assets/images/image-3.png'
+import { LuDownload } from 'react-icons/lu'; 
 import img2 from '../../assets/images/personal-img.jpg'
 const Banner = () => {
     return (

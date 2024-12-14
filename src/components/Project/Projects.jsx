@@ -42,7 +42,7 @@ const Projects = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
 
                 {
-                    projects.map(project => <div key={project.id} data-aos="zoom-in" className='shadow-md p-3 rounded-md shadow-gray-400'>
+                    projects.map(project => <div key={project.id} data-aos="zoom-in" className='p-3 rounded-md shadow-purple-700 shadow-md'>
 
                         <img src={project.img} alt="image" className='w-[500px] h-[200px]' />
                         <p className='text-base md:text-xl text-opacity-80 text-white my-2'>Name : {project.name}</p>

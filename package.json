@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.1",
     "aos": "^2.3.4",
     "developer-icons": "^5.0.5",
     "firebase": "^10.12.3",
