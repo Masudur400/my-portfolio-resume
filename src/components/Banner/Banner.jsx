@@ -13,7 +13,7 @@ const Banner = () => {
                             dynamic and user-friendly websites. Committed to continuous learning, collaboration, and a proactive approach to mastering
                             new technologies.</p>
 
-                        <a href="https://drive.google.com/file/d/1FerpDVAKFhroVg9YTCStKdZZ233muucb/view?usp=sharing" target='blank' className='text-white w-fit bg-indigo-500 px-4 py-2 rounded-md mt-3 flex gap-1 justify-center items-center'><LuDownload></LuDownload> Download Resume</a>
+                        <a href="https://drive.google.com/file/d/15zTeYNOQiSP3MSIbLk51s4SQKMvxXUWk/view?usp=sharing" target='blank' className='text-white w-fit bg-indigo-500 px-4 py-2 rounded-md mt-3 flex gap-1 justify-center items-center'><LuDownload></LuDownload> Download Resume</a>
 
                     </div>
                 </div>
