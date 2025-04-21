@@ -2,6 +2,7 @@ import project1 from '../../assets/images/project-2.png'
 import project2 from '../../assets/images/project-3.png'
 import project3 from '../../assets/images/project-4.png'
 import project4 from '../../assets/images/brand-tec.png'
+import project5 from '../../assets/images/project-5.png'
 
 const Projects = () => {
 
@@ -29,6 +30,13 @@ const Projects = () => {
         },
         {
             id: 4,
+            img: project5,
+            name: 'NextGen (Service Site)',
+            liveLink: 'https://job-portal-18a73.web.app/',
+            github: 'https://github.com/Masudur400/job-portal-client'
+        },
+        {
+            id: 5,
             img: project2,
             name: 'Ghorer Bazar (E-Commerce)',
             liveLink: 'https://ghorer-bazar.web.app/',
