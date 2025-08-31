@@ -57,7 +57,7 @@ const DragAndDrop = () => {
     return (
         <div>
             <h3 className="md:text-4xl text-2xl font-medium text-center my-10 opacity-80">Skills</h3>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:w-[600px] mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:w-[600px] mx-auto">
                 {gridItems.map((item) => (
                     <div
                         key={item.id}
@@ -66,7 +66,7 @@ const DragAndDrop = () => {
                         onDragOver={(e) => handleDragOver(e, item)}
                         onDrop={(e) => handleDrop(e, item)}
                         onDragLeave={() => setHoveredItem(null)}
-                        className={`w-fit mx-auto md:px-8 md:py-4 px-6 py-2 border-2 border-purple-700 border-opacity-70 hover:shadow-purple-400 hover:shadow-md rounded text-center cursor-move ${item.id === draggedItem?.id && "bg-blue-100 opacity-30"
+                        className={`w-fit mx-auto md:px-4 md:py-2 px-6 py-2 border-2 border-purple-700 border-opacity-70 hover:shadow-purple-400 hover:shadow-md rounded text-center cursor-move ${item.id === draggedItem?.id && "bg-blue-100 opacity-30"
                             } ${item.id === hoveredItem?.id ? "border-dashed border-2 border-blue-500" : "border-gray-100"
                             }`}
                     >
