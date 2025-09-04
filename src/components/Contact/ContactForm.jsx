@@ -51,7 +51,7 @@ export const ContactForm = () => {
                     </div>
                     <div>
                         <p className="max-sm-text-sm  my-2">Message</p>
-                        <textarea required name="message" id="" rows={4} className='w-full border border-base-300 bg-transparent'></textarea>
+                        <textarea required name="message" placeholder="Message" id="" rows={4} className='w-full border border-base-300 bg-transparent'></textarea>
                     </div> 
                     <input type="submit" value="Send Message" className="px-4 py-2 bg-indigo-600 w-full my-5 hover:cursor-pointer rounded-md max-sm:text-sm" /> 
                 </form>
