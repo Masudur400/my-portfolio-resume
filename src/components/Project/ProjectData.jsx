@@ -14,22 +14,22 @@ export const AllProjects = [
             liveLink: 'https://client-ride-booking-management-syst.vercel.app/',
             github: 'https://github.com/Masudur400/client-ride-booking-management-system',
             description:['Role-based access for Users, Drivers, and Admins','Secure booking, cancellation, and real-time ride status','Admin controls for approvals, ride management, and moderation']
-        },
+        }, 
         {
             id: 2,
-            img: project3,
-            name: 'ButterFly (Book Exchange)',
-            liveLink: 'https://butterfly-books.vercel.app/',
-            github: 'https://github.com/faisal-shohag/Butterfly',
-            description:['Responsive UI for book exchange (navbar, homepage, profile)','Real-time data fetching for users and books','Admin dashboard with user & book management']
-        },
-        {
-            id: 3,
             img: project4,
             name: 'BrandTec (E-Commerce)',
             liveLink: 'https://brand-tec.web.app/',
             github: 'https://github.com/Masudur400/Brand-tec-client',
             description:['Manage products, shipping, and users dynamically','Integrated SSL Commerz & EmailJS for payments and contact','Admin dashboard with role-based management of users, orders, and shipments']
+        }, 
+        {
+            id: 3,
+            img: project5,
+            name: 'NextGen (Service Site)',
+            liveLink: 'https://job-portal-18a73.web.app/',
+            github: 'https://github.com/Masudur400/job-portal-client',
+            description:['Users: view services, jobs, employees, projects, contact','Apply for jobs & track applications','Admin: manage roles, jobs, employees, projects with stats']
         },
         {
             id: 4,
@@ -41,11 +41,11 @@ export const AllProjects = [
         },
         {
             id: 5,
-            img: project5,
-            name: 'NextGen (Service Site)',
-            liveLink: 'https://job-portal-18a73.web.app/',
-            github: 'https://github.com/Masudur400/job-portal-client',
-            description:['Users: view services, jobs, employees, projects, contact','Apply for jobs & track applications','Admin: manage roles, jobs, employees, projects with stats']
+            img: project3,
+            name: 'ButterFly (Book Exchange)',
+            liveLink: 'https://butterfly-books.vercel.app/',
+            github: 'https://github.com/faisal-shohag/Butterfly',
+            description:['Responsive UI for book exchange (navbar, homepage, profile)','Real-time data fetching for users and books','Admin dashboard with user & book management']
         },
         {
             id: 6,
