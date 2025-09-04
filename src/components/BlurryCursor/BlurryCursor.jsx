@@ -1,32 +1,23 @@
-
-
 import { useState, useEffect } from 'react'; 
-
 const BlurryCursor = () => {
-  const [strikes, setStrikes] = useState([]);
-
+  const [strikes, setStrikes] = useState([]); 
   useEffect(() => {
     const handleMouseMove = (event) => {
       const newStrike = {
         id: Date.now(),
-        x: event.clientX + Math.random() * 50 - 25, // Slight offset around the cursor
+        x: event.clientX + Math.random() * 50 - 25, 
         y: event.clientY + Math.random() * 50 - 25,
-        rotation: Math.random() * 360, // Random rotation
-        scale: Math.random() * 0.5 + 0.7, // Random size variation
-      };
-
-      setStrikes((prev) => [...prev, newStrike]);
-
-      // Remove the lightning strike after animation
+        rotation: Math.random() * 360, 
+        scale: Math.random() * 0.5 + 0.7, 
+      }; 
+      setStrikes((prev) => [...prev, newStrike]); 
       setTimeout(() => {
         setStrikes((prev) => prev.filter((strike) => strike.id !== newStrike.id));
-      }, 300); // Strike lifetime: 300ms
-    };
-
+      }, 300); 
+    }; 
     window.addEventListener('mousemove', handleMouseMove);
     return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, []);
-
+  }, []); 
   return (
     <div className="lightning-cursor-container">
       {strikes.map((strike) => (
@@ -42,6 +33,5 @@ const BlurryCursor = () => {
       ))}
     </div>
   );
-};
-
+}; 
 export default BlurryCursor;

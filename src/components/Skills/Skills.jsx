@@ -56,7 +56,7 @@ const DragAndDrop = () => {
 
     return (
         <div>
-            <h3 className="md:text-4xl text-2xl font-medium text-center my-10 opacity-80">Skills</h3>
+            <h3 className="md:text-4xl text-2xl font-medium text-center my-10 opacity-80">Skills & Technologies</h3>
             <div className="grid grid-cols-2 md:grid-cols-5 gap-4 md:w-[600px] mx-auto">
                 {gridItems.map((item) => (
                     <div
@@ -75,7 +75,6 @@ const DragAndDrop = () => {
                     </div>
                 ))}
             </div>
-
         </div>
     );
 };
