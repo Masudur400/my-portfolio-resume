@@ -31,7 +31,7 @@ export const ContactForm = () => {
 
     return (
         <div className="mb-14 mt-20">
-            <div className="md:w-3/4 lg:w-3/5 mx-auto p-5 md:p-10 shadow-md shadow-purple-500 rounded-md">
+            <div className="md:w-3/4 lg:w-3/5 mx-auto p-5 md:p-10 shadow-md shadow-purple-500 rounded-md border ">
                 <div className="space-y-2">
                     <p className="text-2xl md:text-3xl font-medium">Contact Me</p>
                     <p className="text-sm text-gray-400">Fill out the form below and we will get back to you shortly.</p> 

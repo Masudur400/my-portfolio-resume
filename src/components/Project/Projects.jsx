@@ -9,7 +9,7 @@ const Projects = () => {
             <h3 className="md:text-4xl text-2xl font-medium text-center text-opacity-80 text-white mt-16 mb-10">Projects Overview</h3>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {
-                    AllProjects.map(project => <div key={project.id} data-aos="zoom-in" className='p-3 rounded-md shadow-purple-500 shadow-md hover:shadow-purple-300 flex flex-col'>
+                    AllProjects.map(project => <div key={project.id} data-aos="zoom-in" className='p-3 border rounded-md shadow-purple-500 shadow-md hover:shadow-purple-300 flex flex-col'>
                         <img src={project.img} alt="image" className='w-[500px] h-[200px]' />
                         <p className='text-base md:text-xl text-opacity-80 text-white my-2'>  {project.name}</p>
                         <div className="flex-grow">
